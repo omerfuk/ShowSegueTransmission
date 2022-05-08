@@ -9,8 +9,22 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        NavigationView{
+            VStack{
+                
+                NavigationLink(destination:IkinciSayfa()){
+                    Text("Geçiş Yap")
+                }
+                
+            }.navigationTitle("Anasayfa")
+        }
+    }
+}
+
+struct IkinciSayfa: View {
+    var body: some View {
+        Text("İkinci Sayfa").font(.largeTitle)
+            
     }
 }
 
