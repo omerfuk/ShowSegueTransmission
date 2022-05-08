@@ -14,6 +14,7 @@
 		DE9EC7972827BFB600E7A147 /* ShowSegueTransmissionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9EC7962827BFB600E7A147 /* ShowSegueTransmissionTests.swift */; };
 		DE9EC7A12827BFB600E7A147 /* ShowSegueTransmissionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9EC7A02827BFB600E7A147 /* ShowSegueTransmissionUITests.swift */; };
 		DE9EC7A32827BFB600E7A147 /* ShowSegueTransmissionUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9EC7A22827BFB600E7A147 /* ShowSegueTransmissionUITestsLaunchTests.swift */; };
+		DE9EC7B02827C27B00E7A147 /* Kisiler.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9EC7AF2827C27B00E7A147 /* Kisiler.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		DE9EC79C2827BFB600E7A147 /* ShowSegueTransmissionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShowSegueTransmissionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE9EC7A02827BFB600E7A147 /* ShowSegueTransmissionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowSegueTransmissionUITests.swift; sourceTree = "<group>"; };
 		DE9EC7A22827BFB600E7A147 /* ShowSegueTransmissionUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowSegueTransmissionUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DE9EC7AF2827C27B00E7A147 /* Kisiler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kisiler.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				DE9EC7872827BFB400E7A147 /* ContentView.swift */,
 				DE9EC7892827BFB600E7A147 /* Assets.xcassets */,
 				DE9EC78B2827BFB600E7A147 /* Preview Content */,
+				DE9EC7AF2827C27B00E7A147 /* Kisiler.swift */,
 			);
 			path = ShowSegueTransmission;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			files = (
 				DE9EC7882827BFB400E7A147 /* ContentView.swift in Sources */,
 				DE9EC7862827BFB400E7A147 /* ShowSegueTransmissionApp.swift in Sources */,
+				DE9EC7B02827C27B00E7A147 /* Kisiler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
